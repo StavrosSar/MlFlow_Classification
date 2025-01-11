@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/user/PycharmProjects/PythonProject/PythonProject111/mlruns/618277001463574266/c4c444a658224ecf861e92c7ce49dc89/artifacts
+end_time: 1736559062215
+entry_point_name: ''
+experiment_id: '618277001463574266'
+lifecycle_stage: active
+run_id: c4c444a658224ecf861e92c7ce49dc89
+run_name: run3.3
+run_uuid: c4c444a658224ecf861e92c7ce49dc89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1736559053425
+status: 3
+tags: []
+user_id: user

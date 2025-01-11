@@ -1,0 +1,6 @@
+artifact_location: file:///C:/Users/user/PycharmProjects/PythonProject/PythonProject111/mlruns/205059037392113562
+creation_time: 1736557858265
+experiment_id: '205059037392113562'
+last_update_time: 1736557858265
+lifecycle_stage: active
+name: KNeighborsClassifier
