@@ -1,6 +1,0 @@
-artifact_location: file:///C:/Users/user/PycharmProjects/PythonProject/PythonProject111/mlruns/618277001463574266
-creation_time: 1736557157095
-experiment_id: '618277001463574266'
-last_update_time: 1736557157095
-lifecycle_stage: active
-name: RandomForestClassifier
