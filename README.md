@@ -1,22 +1,29 @@
-# Machine Learning Model Training and Experiment Logging with MLflow
+# MLFlow Experiment Tracker for Classification Models
 
-## Overview
+This repository demonstrates the use of [MLFlow](https://mlflow.org/) for tracking machine learning experiments with a variety of classification algorithms. The dataset used is assumed to be a CSV file named `clients.csv`, which contains features for predicting `default_payment_next_month`. The workflow involves preprocessing, feature selection, model training, evaluation, and logging results to MLFlow.
 
-This repository contains a Python script that utilizes various machine learning algorithms to predict client default payments based on features contained in a dataset. The models are trained using scikit-learn, and MLflow is used to manage experiments, logging metrics, parameters, and model artifacts systematically.
+## Features
 
-## Technologies Used
+- **Classification Models**: Logistic Regression, Decision Tree, Random Forest, K-Nearest Neighbors, Naive Bayes, SVM, and AdaBoost.
+- **Experiment Tracking**: Logs hyperparameters, metrics, artifacts, and models to MLFlow.
+- **Feature Selection**: Uses `SelectKBest` to select the top 50 features.
+- **Custom Evaluation Metrics**: Accuracy, Precision, Recall, and F1 Score.
+- **Dataset Splitting**: Splits the data into training (60%) and testing (40%) sets.
 
-- Python
-- pandas
-- NumPy
-- scikit-learn
-- MLflow
+## Prerequisites
 
-# For setting the tracking server on the local terminal:
+- Python 3.6+
+- MLFlow installed and running locally
+- The following Python libraries:
+  - `numpy`
+  - `pandas`
+  - `scikit-learn`
+  - `mlflow`
+
+## Setting the tracking server on a local terminal:
 ```bash
 conda activate PythonProject 
 ```
 ```bash
 mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlflow-artifatcs --host 127.0.0.1 --port 5000 
 ```
-and then set "http://127.0.0.1:5000" on the set_tracking_uri
