@@ -12,11 +12,11 @@ This repository contains a Python script that utilizes various machine learning 
 - scikit-learn
 - MLflow
 
-For setting the tracking server on the local terminal 
+## For setting the tracking server on the local terminal 
 ```bash
-
 conda activate PythonProject 
-
+```
+```bash
 mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlflow-artifatcs --host 127.0.0.1 --port 5000 
-
+```
 and then set "http://127.0.0.1:5000" on the set_tracking_uri
