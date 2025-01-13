@@ -12,7 +12,7 @@ This repository contains a Python script that utilizes various machine learning 
 - scikit-learn
 - MLflow
 
-## For setting the tracking server on the local terminal 
+# For setting the tracking server on the local terminal:
 ```bash
 conda activate PythonProject 
 ```
