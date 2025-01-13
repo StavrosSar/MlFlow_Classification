@@ -27,3 +27,21 @@ conda activate PythonProject
 ```bash
 mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlflow-artifatcs --host 127.0.0.1 --port 5000 
 ```
+## MLflow Artifacts
+
+After running the experiments, the following artifacts can be accessed via the **MLflow UI**:
+
+### Model-Specific Files
+- `model.pkl`: Serialized model.
+- `MLmodel`: Model metadata.
+- `conda.yaml`: Environment dependencies.
+- `requirements.txt`: Required Python packages.
+- `python_env.yaml`: MLflow Python environment.
+- `input_example.json`: Input example for the model.
+- `serving_input_example.json`: Example for serving.
+- `estimator.html`: Interactive visualization for some models.
+
+### Evaluation Artifacts
+- `training_confusion_matrix.png`: Confusion matrix for model predictions.
+- `training_precision_recall_curve.png`: Precision-recall curve.
+- `training_roc_curve.png`: ROC curve.
